@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    background: black;
+    border-radius: 50px;
+    position: fixed;
+    margin-top: 87vh; 
+    margin-left: 93vw; 
+    text-align: center;
+    color: white;    
+}
+ 
+.nav{
+    height: 60px;
+    width: 99vw;
+    /* border: 2px solid red; */
+    background-color: red;
+    border: border-box;
+    position: sticky;
+    top: 0px;
+}
+
+.box1{
+    height: 80vh;
+    width: 99vw;
+    /* border: 2px solid green; */
+    background: yellow;
+    margin-top: 0px;
+    border: border-box;
+    display: flex;
+}
+
+.inbox1{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    background: green;
+    position: absolute fixed;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 20vw;
+}
+
+.inbox2{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    background: green;
+    position: absolute fixed;
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 20vw;
+}
+
+.box2{
+    height: 1500px;
+    width: 90vw;
+    /* border: 2px solid salmon; */
+    background: salmon;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 0px ;
+}
+
+.footer{
+    display: block;
+    height: 60px;
+    width: 99vw;
+    /* border: 2px solid yellowgreen; */
+    background: yellowgreen;
+    margin-top: 0px;
+}
+
+p{
+    /* justify-content: center; */
+    align-content: center;
+    text-align: center;
+}
